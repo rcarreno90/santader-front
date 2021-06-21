@@ -1,0 +1,54 @@
+body {
+    background-color: #faa754;
+    background-image: url('https://pro2-bar-s3-cdn-cf.myportfolio.com');
+}
+h1{
+    color:#46484c;
+    text-align:center;
+}
+
+p{
+    color: #8b8b8bcc;
+    font-family: verdana;
+    font-size: 20 px;
+}
+
+button {
+    color : #fff;
+    background-color: #025157;
+}
+
+.header {
+    margin-top: 40 px;
+    margin-left: 20 px;
+    margin-right: 20 px;
+    font-size: 0;
+    line-height: 45px;
+}
+
+li{
+    display:inline;
+}
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}  
+
+.logo {
+    width:15%;
+}
+
+.navbar {
+    width: 70%;
+    text-align: center;
+    color: green;
+}
+
+.actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+}

@@ -1,0 +1,228 @@
+body {
+  background-color: white;
+  /* background-image: url('https://pro2-bar-s3-cdn-cf.myportfolio.com'); */
+}
+h1{
+  color:#46484c;
+  text-align:center;
+}
+
+p{
+  color: #8b8b8bcc;
+  font-family: verdana;
+  font-size: 20 px;
+}
+
+button {
+  color : #fff;
+  background-color: #025157;
+}
+
+.header {
+  margin-top: 40 px;
+  margin-left: 20 px;
+  margin-right: 20 px;
+  font-size: 0;
+  line-height: 45px;
+}
+
+li{
+  display:inline;
+}
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+}  
+
+.logo {
+  width:15%;
+}
+
+.navbar {
+  width: 70%;
+  text-align: center;
+  color: green;
+}
+
+.actions {
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+}
+
+.informacion_izquierda h3 {
+font-family: "Alegreya", serif;
+font-size: 40px;
+line-height: 48px;
+color: #025157;
+}
+
+.informacion_izquierda > p {
+font-size: 16px;
+color: #343434;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+
+.informacion_izquierda > form {
+display: flex;
+}
+
+.informacion_izquierda > form p {
+color: #025157;
+margin-right: 18px;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
+}
+
+main {
+  margin-top: 285px;
+  text-align: center;
+}
+
+.flex-container{
+  display: flex;
+  background-color: #a1d683;
+  justify-content: space-around;
+}
+
+.informacion_izquierda{
+  height: 70%;
+  width: 60%;
+}
+
+.informacion_izquierda >h3 {
+  text-align: justify;
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.logos__cont__inn{
+  display: flex;
+  flex-wrap: wrap;  
+  margin-top: 20px;
+}
+
+.informacion_derecha{
+  width: 100px;
+  height: 100px;
+}
+
+.featured-customer-wrapper {
+  position: relative;
+  margin-top: -70px;
+}
+
+.featured-customer-logo {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  -webkit-box-shadow: 0 2px 22px rgb(0 0 0 / 11%);
+  box-shadow: 0 2px 22px rgb(0 0 0 / 11%);
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  z-index: 3;
+  position: absolute;
+  bottom: -500px;
+  left: 900px;
+}
+
+.featured-customer-photo{
+width: 100px;
+height: 100px
+}
+.featured-customer-logo img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  max-width: 76%;
+  width: 100%;
+  display: block;
+}
+
+.results-icon {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  max-width: 76%;
+  width: 100%;
+  display: block;
+}
+.results-text {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  max-width: 76%;
+  width: 100%;
+  display: block;
+}
+
+.element.style {
+  background-image: url(https://getmatcha.com/wp-content/uploads/2019/05/profile-headshot-square.png);
+}
+
+.featured-customer-info {
+  margin-top: 500px;
+}
+
+.featured-customer-right-content > h3 {
+  margin-left: 50px;
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.featured-customer-right-content > p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.intro_content {
+  width: 100%;
+    max-width: 712px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #025157;
+    text-align: left;
+}
+
+.button {
+  background: #025157;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
